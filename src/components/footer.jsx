@@ -8,7 +8,7 @@ import logo from "../assets/anc-logo.png"
 const Footer = () => {
   return (
     <div>
-        <div className='bg-nav-links p-1 dark:bg-black text-white'>
+        <div className='bg-[#727272] p-1 dark:bg-black text-white'>
             <div className='flex justify-between items-center md:w-[80%] w-[95%] mx-auto my-auto md:h-[8vh] h-[5vh]'>
                 {/* <div>
                     <img src={logo} className='w-8' ></img>
