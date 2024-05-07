@@ -9,14 +9,14 @@ const Footer = () => {
   return (
     <div>
         <div className='bg-nav-links p-1 dark:bg-black text-white'>
-            <div className='flex justify-between items-center w-[80%] mx-auto my-auto h-[8vh]'>
+            <div className='flex justify-between items-center md:w-[80%] w-[95%] mx-auto my-auto md:h-[8vh] h-[5vh]'>
                 {/* <div>
                     <img src={logo} className='w-8' ></img>
                 </div> */}
                 <div>
-                    <p className=' text-center'><CopyrightIcon/> AnC - Designed by <span>Akshat</span>, all rights reserved.</p>
+                    <p className=' text-center text-sm'><CopyrightIcon/> AnC - Designed by <span>Akshat</span>, all rights reserved.</p>
                 </div>
-                <div className='flex gap-4'>
+                <div className='flex md:gap-4 gap-1'>
                     <a href="#"><InstagramIcon/></a>
                     <a href="#"><FacebookIcon/></a>
                     <a href="#"><XIcon/></a>

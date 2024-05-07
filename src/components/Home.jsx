@@ -46,7 +46,7 @@ const Home = () => {
         </div>
         <div className=' md:grid grid-cols-4 gap-6 p-6'>
         {
-            homeText.map(({heading, text, image, animation}) =><CustomCard1  animation={animation} image={image} heading={heading} key={heading} text={text}/>)
+            homeText.map(({heading, text, image, animation}) =><CustomCard1 animation={animation} image={image} heading={heading} key={heading} text={text}/>)
         }
         </div>
       </div>
