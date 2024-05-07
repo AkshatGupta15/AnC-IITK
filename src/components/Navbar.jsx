@@ -18,7 +18,7 @@ export const Navbar = () => {
   return (
     <div className='z-[1000] dark:bg-black bg-white  opacity-95 fixed w-[100%]'>
     <nav className='flex w-[96%] mx-auto z-[1000] justify-between' >
-        <div className='md:w-[60px] w-[80px] mx-4 my-1'>
+        <div className='md:w-[60px] w-[50px] mx-4 my-1'>
             <a href='#'>
             <img src={Logo} className=''></img>
             </a>
