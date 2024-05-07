@@ -27,7 +27,7 @@ export const Navbar = () => {
         <div className='h-full m-auto md:flex hidden' >
             <ul className='text-center flex justify-between items-center gap-4 m-auto flex-wrap  w-[100%] h-[100%]'>
             {
-            navlinks.map(({link,path}) =><a className='roboto-slab hover:text-white hover:bg-nav-links text-nav-links px-3 py-2 rounded-xl  text-xl font-semibold transition-all duration-300' key={link} href={path}>{link}</a>)
+            navlinks.map(({link,path}) =><a className='roboto-slab hover:text-white hover:bg-nav-links  px-3 py-2 rounded-xl  text-xl font-semibold transition-all duration-300' key={link} href={path}>{link}</a>)
             }
             </ul>
             
