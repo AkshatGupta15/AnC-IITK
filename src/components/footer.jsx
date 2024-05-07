@@ -14,7 +14,7 @@ const Footer = () => {
                     <img src={logo} className='w-8' ></img>
                 </div> */}
                 <div>
-                    <p className=' text-center text-sm'><CopyrightIcon/> AnC - Designed by <span>Akshat</span>, all rights reserved.</p>
+                    <p className=' text-center text-[10px] font-serif '><CopyrightIcon/> AnC - Designed by <span className='font-semibold'>Akshat</span>, all rights reserved.</p>
                 </div>
                 <div className='flex md:gap-4 gap-1'>
                     <a href="#"><InstagramIcon/></a>
