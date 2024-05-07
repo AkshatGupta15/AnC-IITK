@@ -15,7 +15,7 @@ export const Banner = () => {
 
         <div>
   
-            <div className='w-[100%] bg-[url("./assets/svg10.svg")] dark:bg-[url("./assets/darksvg1.svg")] bg-no-repeat bg-cover bg-center bg-fixed h-[100vh]  flex justify-center items-center'>
+            <div className='w-[100%] bg-[url("./assets/svg10.svg")] dark:bg-[url("./assets/darksvg1.svg")] bg-no-repeat bg-cover bg-center bg-fixed h-[100vh]  flex justify-center items-center border-b-2'>
               <div data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className='flex justify-center items-center'>
                 <div className='md:w-[40%]'>
                   <HomeText />
