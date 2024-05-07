@@ -638,6 +638,10 @@ video {
   margin-top: 90px;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .block {
   display: block;
 }

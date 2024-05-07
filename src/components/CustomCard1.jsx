@@ -18,7 +18,7 @@ export default function CustomCard1({animation, image , text , heading}) {
   }, [])
   return (
     <div  data-aos={animation} data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-    <MDBCard className='hover:scale-105 dark:bg-black dark:text-white border-2'>
+    <MDBCard className='hover:scale-105 mt-4 dark:bg-black dark:text-white border-2'>
       <MDBCardImage position='top' alt='...' src={image} />
       <MDBCardBody className='font-serif'>
         <MDBCardTitle className='text-2xl font-[500]'>{heading}</MDBCardTitle>
