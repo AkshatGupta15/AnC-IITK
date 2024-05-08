@@ -33,14 +33,33 @@ export const Navbar = () => {
   return (
     <div className=" z-[1000] bg-white/100 dark:bg-[#0F336D]   md:opacity-95 fixed w-[100%] border-b-2 dark:border-b-gray-400">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-      <div className="drawer-side lg:mt-[60px] mt-[73px]">
+      <div className="drawer-side">
         <label
           htmlFor="my-drawer-3"
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="  menu p-4 w-80 min-h-full ">
+        <ul className=" bg-white/100 dark:bg-[#0F336D] menu p-4 w-80 min-h-full">
           {/* Sidebar content here */}
+          <label
+              htmlFor="my-drawer-3"
+              aria-label="open sidebar"
+              className="btn btn-square btn-ghost"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                className="inline-block w-6 h-6 stroke-current"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </label>
           {navlinks.map(({ link, path }) => (
             <a
               className="roboto-slab  hover:text-white hover:bg-nav-links   px-3 py-2 rounded-xl  text-xl font-semibold transition-all duration-300"
