@@ -18,18 +18,11 @@ function App() {
     <div className='max-w-screen-2xl overflow-hidden '>
       <Layout/>
     </div>
+    
     {/* <motion.div
-    style={{}}
-    animate={{
-      scale: [1, 2, 2, 1, 1],
-      rotate: [0, 0, 270, 270, 0],
-      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-    }}
-  />
-    <motion.div
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
-      /> */}
+      />  */}
     {/* <div className=' overflow-hidden'>
       <div className='fixed top-0 z-50' >
         <Navbar/>
