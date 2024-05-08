@@ -11,11 +11,11 @@ import Layout from './components/Layout';
 
 
 function App() {
-  const { scrollYProgress } = useScroll();
+  // const { scrollYProgress } = useScroll();
 
   return (
     <>
-    <div className='max-w-screen-2xl overflow-hidden '>
+    <div className='max-w-screen-2xl overflow-hidden'>
       <Layout/>
     </div>
     

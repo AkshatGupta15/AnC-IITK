@@ -40,7 +40,7 @@ const Home = () => {
   }, [])
   return (
     <div>
-      <div className='border-b-2'>
+      <div className='border-b-2 dark:border-gray-400'>
         <div className='text-5xl font-semibold underline underline-offset-4 decoration-2 '>
           <h1 className='font-serif ml-12 mt-4'>GOALS...</h1>
         </div>
